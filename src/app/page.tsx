@@ -4,7 +4,7 @@ import { TITLE_APP } from "@/consts/const";
 import Header from "./components/partials/header";
 import Footer from "./components/partials/footer";
 import CarTemplate from "./components/templates/CarTemplate";
-import { type Car } from "./interfaces/Car";
+import { type Car } from "./interfaces/CarInterface";
 import useDefaultCars from "@/data/cars";
 export default function Home() {
    /**

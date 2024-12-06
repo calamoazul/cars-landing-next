@@ -6,7 +6,7 @@ import Footer from "../components/partials/footer";
 import { TITLE_APP } from "@/consts/const";
 import { JSX } from "react/jsx-runtime";
 import CarTemplate from "../components/templates/CarTemplate";
-import { type Car } from "../interfaces/Car";
+import { type Car } from "../interfaces/CarInterface";
 export default function Renting():JSX.Element
 {
 
