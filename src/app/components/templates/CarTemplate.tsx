@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { JSX } from "react/jsx-runtime";
 import styles from "@/app/styles/partials.module.css";
-import { type Car } from "@/app/interfaces/Car";
+import { type Car } from "@/app/interfaces/CarInterface";
 
 
 
