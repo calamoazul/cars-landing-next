@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CARS LANDING
 
-## Getting Started
+Esto es un ejemplo de landing de reserva de coches usando React 19 con Nexts.
 
-First, run the development server:
+Para instalar la aplicación ejecuta los siguientes comandos en la terminal:
 
 ```bash
 npm run dev
@@ -14,23 +14,27 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+La aplicación está desarrollada en Ubuntu, así que si la descargas en un entorno Windows, fijate en actualizar los paquetes que lo necesiten.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Si deseas correr los test de la aplicación ejecuta el siguiente comando:
 
-## Learn More
+```bash
+npm run test
+```
 
-To learn more about Next.js, take a look at the following resources:
+Se usa una base de dato de mongoose, por lo que tendras que completar los datos del example.env para que los tests de routing funcionen.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Historial de versiones
+
+- Versión 1.0.0
+
+En esta versión se está maquetando la base de la aplicación y estructurando el diseño. De momento, los datos de los coches se toman de constantes definidas en un archivo. Más adelante se creará una interfaz de base de datos, para que se pueda tomar la información de varios tipos de bases de datos, como sqlite, mysql o mongodb.
